@@ -25,6 +25,6 @@ resource "aws_instance" "blocksecurepay_backend" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "blocksecurepay-backend"
+    Name = "Blocksecurepay-backend"
   }
 }
